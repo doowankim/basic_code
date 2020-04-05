@@ -1,19 +1,19 @@
 import React, {Component} from 'react';
-import styled from "styled-components";
-
-const Back = styled.div`
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-right: 40px;
-  margin-left: 40px;
-`;
 
 class Landing extends Component {
     render() {
         return (
-            <Back>
-                Landing
-            </Back>
+            <div className="landing">
+                <div className="dark-overlay landing-inner text-light">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-12 text-center">
+                                <h1 className="display-3 mb-4">Landing Page</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         );
     }
 }
