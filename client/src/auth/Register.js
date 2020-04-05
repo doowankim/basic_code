@@ -58,7 +58,7 @@ class Register extends Component {
                                     <input type="password2" className="form-control" id="InputConfirmPassword"
                                            aria-describedby="passwordHelp" />
                                 </div>
-                                <button type="submit" className="btn btn-primary">Submit</button>
+                                <button type="submit" className="btn btn-primary">확인</button>
                             </form>
                         </div>
                     </div>
